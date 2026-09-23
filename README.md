@@ -1,10 +1,10 @@
-#Air Quality Visualizer
+# Air Quality Visualizer
 
 A Python-based web application for monitoring air quality using live data from the Open-Meteo Air Quality API.
 
 The application retrieves pollutant concentrations for selected Indian cities, calculates an Indian AQI-based value, visualizes pollutant trends, and uses machine learning models to predict the next-hour PM2.5 concentration.
 
-##Features
+## Features
 
 - Live air-quality data using REST API
 - City selection for Indian cities
@@ -21,7 +21,7 @@ The application retrieves pollutant concentrations for selected Indian cities, c
 - CSV data download
 - Interactive Streamlit dashboard
 
-##Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -31,7 +31,7 @@ The application retrieves pollutant concentrations for selected Indian cities, c
 - Scikit-learn
 - Open-Meteo Air Quality REST API
 
-##Machine Learning
+## Machine Learning
 
 Two regression models are used for PM2.5 prediction:
 
@@ -48,7 +48,7 @@ The models use features such as:
 
 Model performance is evaluated using Mean Absolute Error (MAE).
 
-##Data Processing
+## Data Processing
 
 The application:
 
@@ -60,7 +60,7 @@ The application:
 6. Displays the results using interactive Plotly charts.
 7. Uses the processed data for machine learning.
 
-##How to Run
+## How to Run
 
 ### 1. Clone the repository
 
